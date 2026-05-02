@@ -2,6 +2,8 @@
 
 A full-stack web application for exploring **Principal Component Analysis (PCA)** and **Singular Value Decomposition (SVD)** for dimensionality reduction and visualization.
 
+## View the live project - https://pca-svd-studio.vercel.app/
+
 ---
 
 ## Features
