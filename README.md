@@ -128,5 +128,5 @@ feature1,feature2,feature3,target
 - All feature columns must be numeric
 - Target column name is configurable (default: `target`)
 
-#Screnshots
+## Scrennshots
 <img width="1050" height="558" alt="image" src="https://github.com/user-attachments/assets/aa7e6ec3-ddbc-4b1a-b25b-9ebc1e9a2c4c" />
