@@ -11,16 +11,17 @@ from sklearn.metrics import accuracy_score
 import io
 from typing import Optional
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="PCA/SVD Dimensionality Reduction API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 class AnalysisRequest(BaseModel):
     dataset: str = "iris"
