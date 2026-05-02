@@ -6,7 +6,7 @@ import LoadingsChart from "../components/LoadingsChart";
 import AccuracyComparison from "../components/AccuracyComparison";
 import "./Dashboard.css";
 
-const API = "http://localhost:8000";
+const API_URL = "https://pca-svd-backend.onrender.com";
 
 const DATASETS = [
   { id: "iris",          label: "Iris",          desc: "150 × 4 · 3 classes" },
